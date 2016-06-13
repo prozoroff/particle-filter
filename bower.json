@@ -1,0 +1,19 @@
+{
+  "name": "particle-filter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/prozorov/particle-filter",
+  "authors": [
+    "prozoroff <alexprozoroff@gmail.com>"
+  ],
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "particle-filter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test-spec": "mocha {lib,test}/**/*.spec.js -R spec --bail",
+    "test-cov": "istanbul cover -x *.spec.js node_modules/mocha/bin/_mocha -- {lib,test}/**/*.spec.js -R spec --bail",
+    "test": "npm run lint && npm run test-cov"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**",
+      "node_modules/**",
+      "bower_components/**"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prozorov/particle-filter.git"
+  },
+  "keywords": [],
+  "author": "prozoroff <alexprozoroff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prozorov/particle-filter/issues"
+  },
+  "homepage": "https://github.com/prozorov/particle-filter",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "pre-commit": "^1.1.1",
+    "standard": "^5.0.0"
+  }
+}
