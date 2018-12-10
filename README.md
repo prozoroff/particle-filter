@@ -22,6 +22,10 @@ filter.update(measurements);
 var result = filter.result;
 ```
 
+## Example
+
+https://codepen.io/alexprozoroff/pen/GPRKxN
+
 ## License
 
 MIT license
